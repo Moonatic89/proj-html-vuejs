@@ -65,7 +65,7 @@ header {
 
     ul {
       display: flex;
-
+      font-weight: bold;
       list-style: none;
 
       li img {
@@ -82,6 +82,7 @@ header {
 
       .navOverlay {
         display: none;
+        border-radius: 2px;
         position: relative;
         z-index: -1;
         transform: translate(-10%, -75%);
