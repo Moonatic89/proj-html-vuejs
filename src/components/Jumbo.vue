@@ -1,20 +1,17 @@
 <template>
-  <main>
-    <Jumbo />
-  </main>
+  <div id="Jumbo">
+    <h2>JUMBO</h2>
+  </div>
 </template>
 
 <script>
-import Jumbo from "../components/Jumbo.vue";
-
-export default {
-  components: {
-    Jumbo,
-  },
-};
 </script>
-
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
+#jumbo {
+  height: 644px;
+  width: 100%;
+  background-color: chocolate;
+}
 </style>
