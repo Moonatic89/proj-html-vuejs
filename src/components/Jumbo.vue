@@ -19,6 +19,26 @@
             <img src="../assets/img/h-2-slider-img-16.png" alt="" />
           </div>
         </div>
+        <div class="artifacts">
+          <div class="leftLeaves">
+            <img src="../assets/img/short-slider-rev-1-img-2.png" alt="" />
+          </div>
+          <div class="leaftLeaf">
+            <img src="../assets/img/h-2-slider-img-12.png" alt="" />
+          </div>
+          <div class="leftPlant">
+            <img src="../assets/img/h-2-slider-img-13.png" alt="" />
+          </div>
+          <div class="rightPlant">
+            <img src="../assets/img/h-2-slider-img-14.png" alt="" />
+          </div>
+          <div class="rightLeaves">
+            <img src="../assets/img/short-slider-rev-1-img-6.png" alt="" />
+          </div>
+          <div class="rightDryLeaves">
+            <img src="../assets/img/h-2-slider-img-17.png" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -73,6 +93,11 @@
       background-color: turquoise;
       position: relative;
 
+      .artifacts {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
       .humans {
         display: flex;
         justify-content: center;
