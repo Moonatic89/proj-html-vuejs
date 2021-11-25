@@ -76,7 +76,12 @@ header {
         padding: 0.5rem 1.5rem;
       }
 
+      li:hover .navOverlay {
+        display: block;
+      }
+
       .navOverlay {
+        display: none;
         position: relative;
         z-index: -1;
         transform: translate(-10%, -75%);
