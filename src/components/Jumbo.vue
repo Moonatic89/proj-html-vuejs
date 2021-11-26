@@ -63,6 +63,7 @@
 
     .card {
       width: 600px;
+      margin-right: 60px;
       // align-self: center;
       .cardTitle {
         font-size: 5rem;
@@ -92,7 +93,6 @@
 
     .jumboImage {
       width: 900px;
-      background-color: turquoise;
       display: flex;
       // position: relative;
 
@@ -102,7 +102,6 @@
 
       .leftArtifactColumn {
         height: 100%;
-        background-color: chocolate;
 
         .artUpLf {
           top: -25px;
@@ -117,10 +116,26 @@
           left: 20px;
         }
       }
-      .humans {
-        display: flex;
-        justify-content: center;
+      .rightArtifactColumn {
+        height: 100%;
+
+        .artUpRg {
+          top: -25px;
+          right: 120px;
+        }
+        .artMidRg {
+          top: 10px;
+          left: -30px;
+        }
+        .artDwRg {
+          top: 180px;
+          left: 0;
+        }
       }
+    }
+    .humans {
+      display: flex;
+      justify-content: center;
     }
   }
 
