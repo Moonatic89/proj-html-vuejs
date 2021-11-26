@@ -1,6 +1,11 @@
 <template>
   <div id="Jumbo">
-    <div class="chevrons"></div>
+    <div class="chevron left">
+      <i class="fas fa-chevron-left"></i>
+    </div>
+    <div class="chevron right">
+      <i class="fas fa-chevron-right"></i>
+    </div>
 
     <div class="container">
       <div class="card">
@@ -64,6 +69,28 @@
 #Jumbo {
   height: 644px;
   width: 100%;
+  position: relative;
+
+  .chevron {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: $dotBorder;
+    color: white;
+    border-radius: 50%;
+    top: 40%;
+  }
+
+  .left {
+    // position: absolute;
+    left: 20px;
+  }
+  .right {
+    // position: absolute;
+    right: 20px;
+  }
 
   .container {
     height: 624px;
@@ -93,7 +120,7 @@
       .cardBtn {
         font-size: 0.8rem;
         background-color: white;
-        border: 2px solid red;
+        border: 2px solid $dotBorder;
         width: 200px;
         height: 60px;
         line-height: 60px;
