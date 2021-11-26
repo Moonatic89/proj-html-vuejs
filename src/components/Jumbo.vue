@@ -70,6 +70,7 @@
   height: 644px;
   width: 100%;
   position: relative;
+  margin-bottom: 2rem;
 
   .chevron {
     position: absolute;

@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <div class="scrollUp">
+      <div class="svg">
+        <img src="./assets/img/svg-2.svg" alt="" />
+      </div>
+    </div>
     <SiteHeader />
     <SiteMain />
     <SiteFooter />
@@ -24,9 +29,26 @@ export default {
 
 <style lang="scss">
 @import "./assets/scss/common.scss";
-
+@import "./assets/scss/colors.scss";
 #app {
   width: 2200px;
+  position: relative;
+
+  .scrollUp {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 2rem;
+    text-align: center;
+
+    .svg {
+      background-color: $backgroundScrollUp;
+    }
+  }
 }
 </style>
 

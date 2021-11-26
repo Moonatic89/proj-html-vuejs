@@ -1,15 +1,18 @@
 <template>
   <main>
     <Jumbo />
+    <Selector />
   </main>
 </template>
 
 <script>
 import Jumbo from "../components/Jumbo.vue";
+import Selector from "../components/Selector.vue";
 
 export default {
   components: {
     Jumbo,
+    Selector,
   },
 };
 </script>
