@@ -4,7 +4,11 @@
       <div class="title">Working <span>process</span></div>
     </div>
 
-    <div class="art"><img src="" alt="" /></div>
+    <div class="art">
+      <div class="image">
+        <img src="../assets/img/svg-3.svg" alt="" />
+      </div>
+    </div>
 
     <div class="container">
       <div class="row">
@@ -52,6 +56,19 @@ export default {};
         font-style: italic;
         font-weight: bold;
       }
+    }
+  }
+
+  .art {
+    width: 50%;
+    margin: auto;
+    position: relative;
+
+    .image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
     }
   }
 
