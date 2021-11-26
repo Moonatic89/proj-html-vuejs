@@ -1,5 +1,7 @@
 <template>
   <div id="Jumbo">
+    <div class="chevrons"></div>
+
     <div class="container">
       <div class="card">
         <div class="cardTitle">Devotion that never <span>ends</span></div>
@@ -43,6 +45,12 @@
         </div>
       </div>
     </div>
+
+    <div class="dots">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot big"></div>
+    </div>
   </div>
 </template>
 
@@ -51,12 +59,14 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
+@import "../assets/scss/colors.scss";
+
 #Jumbo {
   height: 644px;
   width: 100%;
 
   .container {
-    height: 100%;
+    height: 624px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,10 +142,32 @@
           left: 0;
         }
       }
+
+      .humans {
+        display: flex;
+        justify-content: center;
+      }
     }
-    .humans {
-      display: flex;
-      justify-content: center;
+  }
+
+  .dots {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background-color: $dotBorder;
+      margin: 0 1rem;
+    }
+
+    .big {
+      width: 13px;
+      height: 13px;
     }
   }
 
