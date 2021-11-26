@@ -11,6 +11,17 @@
         <div class="cardBtn">READ MORE</div>
       </div>
       <div class="jumboImage">
+        <div class="leftArtifactColumn">
+          <div class="artUpLf pos_rel">
+            <img src="../assets/img/short-slider-rev-1-img-2.png" alt="" />
+          </div>
+          <div class="artMidLf pos_rel">
+            <img src="../assets/img/h-2-slider-img-12.png" alt="" />
+          </div>
+          <div class="artDwLf pos_rel">
+            <img src="../assets/img/h-2-slider-img-13.png" alt="" />
+          </div>
+        </div>
         <div class="humans">
           <div class="girl">
             <img src="../assets/img/h-2-slider-img-15.png" alt="" />
@@ -19,23 +30,14 @@
             <img src="../assets/img/h-2-slider-img-16.png" alt="" />
           </div>
         </div>
-        <div class="artifacts">
-          <div class="leftLeaves">
-            <img src="../assets/img/short-slider-rev-1-img-2.png" alt="" />
-          </div>
-          <div class="leaftLeaf">
-            <img src="../assets/img/h-2-slider-img-12.png" alt="" />
-          </div>
-          <div class="leftPlant">
-            <img src="../assets/img/h-2-slider-img-13.png" alt="" />
-          </div>
-          <div class="rightPlant">
+        <div class="rightArtifactColumn">
+          <div class="artUpRg pos_rel">
             <img src="../assets/img/h-2-slider-img-14.png" alt="" />
           </div>
-          <div class="rightLeaves">
+          <div class="artMidRg pos_rel">
             <img src="../assets/img/short-slider-rev-1-img-6.png" alt="" />
           </div>
-          <div class="rightDryLeaves">
+          <div class="artDwRg pos_rel">
             <img src="../assets/img/h-2-slider-img-17.png" alt="" />
           </div>
         </div>
@@ -91,18 +93,39 @@
     .jumboImage {
       width: 900px;
       background-color: turquoise;
-      position: relative;
+      display: flex;
+      // position: relative;
 
-      .artifacts {
-        position: absolute;
-        top: 0;
-        left: 0;
+      .humans {
+        align-self: center;
+      }
+
+      .leftArtifactColumn {
+        height: 100%;
+        background-color: chocolate;
+
+        .artUpLf {
+          top: -25px;
+          left: 50px;
+        }
+        .artMidLf {
+          top: 100px;
+          left: -30px;
+        }
+        .artDwLf {
+          top: 230px;
+          left: 20px;
+        }
       }
       .humans {
         display: flex;
         justify-content: center;
       }
     }
+  }
+
+  .pos_rel {
+    position: relative;
   }
 }
 </style>
