@@ -56,6 +56,7 @@ footer {
       div {
         margin: 1rem 0;
       }
+
       .icons {
         display: flex;
         justify-content: space-between;
