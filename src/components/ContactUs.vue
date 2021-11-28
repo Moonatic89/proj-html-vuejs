@@ -28,6 +28,7 @@ export default {};
   height: 530px;
   background-image: url("../assets/img/banner.png");
   background-size: cover;
+  margin-bottom: 5rem;
   .textBox {
     display: flex;
     height: 100%;
