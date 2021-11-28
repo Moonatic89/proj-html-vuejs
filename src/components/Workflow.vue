@@ -81,6 +81,7 @@ export default {};
 @import "../assets/scss/colors.scss";
 
 #Workflow {
+  margin-bottom: 5rem;
   .wipText {
     width: 100%;
     text-align: center;
