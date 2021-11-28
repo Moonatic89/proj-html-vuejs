@@ -26,7 +26,8 @@ export default {};
 #ContactUs {
   width: 100%;
   height: 530px;
-  background-color: $contactUsBackground;
+  background-image: url("../assets/img/banner.png");
+  background-size: cover;
   .textBox {
     display: flex;
     height: 100%;
@@ -47,6 +48,10 @@ export default {};
       margin: 2rem;
       text-align: center;
       width: 80%;
+    }
+    .btn:hover {
+      background-color: $hoverContactButton;
+      color: white;
     }
 
     .btn {
