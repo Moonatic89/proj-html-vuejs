@@ -34,7 +34,7 @@ export default {
 @import url("https://fonts.googleapis.com/css?family=Muli");
 
 #app {
-  width: 2200px;
+  width: 100vw;
   position: relative;
   font-family: "Muli", sans-serif;
 

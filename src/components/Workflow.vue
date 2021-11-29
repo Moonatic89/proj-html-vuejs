@@ -106,6 +106,10 @@ export default {};
       top: 0;
       left: 0;
       z-index: -1;
+
+      img {
+        width: 100%;
+      }
     }
   }
 

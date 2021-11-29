@@ -35,7 +35,7 @@ export default {};
 
     .col_4 {
       width: calc(100% / 3);
-      height: 772px;
+      height: calc(100% / 2);
 
       img {
         width: 100%;
