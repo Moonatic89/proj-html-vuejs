@@ -24,10 +24,12 @@ export default {};
 @import "../assets/scss/colors.scss";
 
 #ContactUs {
-  width: 100%;
+  width: 100vw;
+  min-width: 1660px;
   height: 530px;
   background-image: url("../assets/img/banner.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin-bottom: 5rem;
   .textBox {
     display: flex;
