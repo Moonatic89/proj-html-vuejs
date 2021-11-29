@@ -54,6 +54,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: "Muli", sans-serif;
 
     .logo {
       padding: 1rem;

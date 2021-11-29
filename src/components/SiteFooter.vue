@@ -42,7 +42,6 @@ footer {
   width: 100%;
   height: 228px;
   background-color: $backgroundScrollUp;
-
   .container {
     width: 50%;
     height: 100%;

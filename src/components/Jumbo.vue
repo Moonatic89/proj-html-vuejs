@@ -85,11 +85,9 @@
   }
 
   .left {
-    // position: absolute;
     left: 20px;
   }
   .right {
-    // position: absolute;
     right: 20px;
   }
 
@@ -102,7 +100,6 @@
     .card {
       width: 600px;
       margin-right: 60px;
-      // align-self: center;
       .cardTitle {
         font-size: 5rem;
         line-height: 70px;
@@ -117,6 +114,11 @@
         line-height: 25px;
 
         color: gray;
+      }
+
+      .cardBtn:hover {
+        background-color: $hoverContactButton;
+        color: white;
       }
       .cardBtn {
         font-size: 0.8rem;

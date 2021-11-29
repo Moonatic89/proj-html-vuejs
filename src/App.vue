@@ -30,9 +30,13 @@ export default {
 <style lang="scss">
 @import "./assets/scss/common.scss";
 @import "./assets/scss/colors.scss";
+@import url("https://fonts.gstatic.com/s/heebo/v12/NGS6v5_NC0k9P9H0TbFzsQ.woff2");
+@import url("https://fonts.googleapis.com/css?family=Muli");
+
 #app {
   width: 2200px;
   position: relative;
+  font-family: "Muli", sans-serif;
 
   .scrollUp {
     position: fixed;
